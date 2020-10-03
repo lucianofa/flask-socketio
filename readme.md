@@ -35,7 +35,7 @@ Este projeto foi desenvolvido utilizando Flask e seus recursos,
 além de HTML, CSS e JS para a construção do template.
 
 ## Aplicação
-O projeto funcionada da seguinte maneira, o Flask serve como servidor
+O projeto funciona da seguinte maneira, o Flask serve como servidor
  para aplicação capturando as mensagens escritas no *chat.html* (template).
 No arquivo *chat.html* são importados dois arquivos .js, um para receber os 
 dados do template e a biblioteca *https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js*
