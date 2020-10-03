@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Flask-SocketIo</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+    </head>
+    <body class="container">
+        <header>
+            <h1>Chat com Flask e SocketIO</h1>
+        </header>
+        <section>
+            <div id="mensagens" class="chat"></div>
+            <div id="formulario">
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Escreva seu nome...">
+                    <label for="mensagem">Mensagem:</label>
+                    <input id="mensagem" placeholder="Digite sua mensagem"><br/>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+        <script src="/static/socketio.js"></script>
+    </body>
+</html>

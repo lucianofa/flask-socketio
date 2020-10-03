@@ -1,0 +1,52 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%
+}
+
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+
+div#mensagens {
+    margin-top: 2em;
+}
+
+p {
+    display: flex;
+    margin-top: 1em;
+    border: solid 0px;
+    text-align: center;
+    height: 5em;
+    width: 40%;
+    background-color: aliceblue;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+div#formulario {
+    margin-top: 2em;
+}
+
+div#formulario div {
+    margin-top: 1em;
+}
+
+button {
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+    border: solid 0px;
+    background-color: green;
+    color: black;
+}
